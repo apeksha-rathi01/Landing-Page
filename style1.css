@@ -1,0 +1,282 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #626262#434343;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.header {
+    background-color: #434343;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.Logo img {
+    max-width: 100px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero section */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-title {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: #533a41;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About section */
+.about-us {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Team-member {
+    text-align: center;
+    margin: 20px;
+    max-width: 250px;
+}
+
+.Team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Services section */
+.services {
+    background-color: #e4e4e4;
+    padding: 50px 0;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    text-align: center;
+    margin: 20px;
+    max-width: 250px;
+}
+
+.service-item img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Case Studies section */
+.case-studies {
+    padding: 50px 0;
+    background-color: #fff;
+    
+}
+
+.case-studies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    
+}
+
+.case-study-item {
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.case-study-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Blog section */
+.blog {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-post {
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+#img:hover{
+    transform: scale(1.1)translateY(-10%);
+}
+
+/* Contact section */
+.contact {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cta-button {
+    background-color: #e94e77;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer-nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-nav-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: background 0.5s, transform 0.5s;
+    border: 1px solid #8f2340;
+  }
+  
+  .footer .social-media a:hover {
+    background: #e94e77;
+}
+
+  
+  
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-list li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .team, .services-grid, .case-studies-grid, .blog-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.section-title p{
+    font-size: 40px;
+}
+
+
+
